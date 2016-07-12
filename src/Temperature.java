@@ -56,9 +56,9 @@ public class Temperature {
 
   public static void main(String[] args) throws Exception {
     // input path
-    String dst = "hdfs://discovery3:9000/tmp/flyingsky2007/test1/input.txt";
+    String dst = "your hdfs path/test/input.txt";
     // output path
-    String dstOut = "hdfs://discovery3:9000/tmp/flyingsky2007/test1/output";
+    String dstOut = "your hdfs path/test/output";
     Configuration hadoopConfig = new Configuration();
 
     hadoopConfig.set("fs.hdfs.impl",
