@@ -1,6 +1,4 @@
 # hadoop-mapreduce
-My MapReduce sample code written by Hadoop API and Java.
+This example I wrote uses Hadoop to perform a simple Map/Reduce job that find a highest temperature of every year in a huge dataset. The Map/Reduce job uses Hadoop File System (HDFS) to store the input dataset and results.
 API was based on Hadoop 2.4.1.
-This program is used to get the highest temperature in every year from huge dataset of temperatures by MapReduce method.
 Here only gives a small data sample for demo.
-This is sample code for learning purpose only.
